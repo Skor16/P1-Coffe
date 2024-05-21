@@ -39,5 +39,47 @@ body {
     margin-right: 1.875rem;
 }
 
+/* hero image and text */
+#hero-outer {
+    height: 37.5rem;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
+    height: 37.5rem;
+    width: 100%;
+    background: url("../images/coffee-bean.jpg") no-repeat center center;
+}
+
+
+
+#welcome-text {
+    letter-spacing: 0.25rem;
+    padding: 2.5rem;
+    background-color: rgba(255, 255, 255, 0.4);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+
+#welcome-text h2 {
+    color: black;
+    font-size: 200%;
+}
+
+#welcome-text h3 {
+    color: black;
+    font-size: 150%;
+    font-weight: bold;
+    line-height: 1;
+    padding-top: 1.875rem;
+}
+
 
 
