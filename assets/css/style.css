@@ -81,5 +81,14 @@ body {
     padding-top: 1.875rem;
 }
 
+#tagline {
+    text-align: center;
+    margin: 0;
+    padding: 1.875rem;
+    font-size: 280%;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
 
 
