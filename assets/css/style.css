@@ -13,6 +13,26 @@ body {
     margin: 0 auto;
 }
 
+/* heading */
+h1,
+h2,
+h3 {
+    font-family: Oswald, sans-serif;
+    letter-spacing: 0.25rem;
+    color: black;
+}
+
+h3 {
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+}
+
+hr {
+    border-top: 0.125rem solid black;
+    width: 100%;
+    margin: 0.3125rem 0 0.625rem;
+}
+
 /* logo and menu */
 
 #logo {
@@ -88,6 +108,59 @@ body {
     font-size: 280%;
     text-transform: uppercase;
     line-height: 1;
+}
+
+/* footer styling */
+footer {
+    height: 14.1rem;
+    padding-top: 1rem;
+}
+
+#footer-group {
+    width: 43.75rem;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 1.875rem;
+}
+
+#footer-left-panel {
+    float: left;
+    text-align: left;
+}
+
+#footer-right-panel {
+    float: right;
+    text-align: left;
+}
+
+#footer-center-panel {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.footer-text {
+    font-size: 90%;
+    font-weight: 600;
+}
+
+#opening-times li {
+    list-style-type: none;
+}
+
+.social-networks {
+    text-align: left;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 200%;
+    margin: 0.5rem;
+    color: black;
+    text-decoration: none;
 }
 
 
