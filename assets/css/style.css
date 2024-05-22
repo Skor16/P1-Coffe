@@ -163,7 +163,7 @@ footer {
     text-decoration: none;
 }
 
-/* this is styling for the food menu page  */
+/* Style food menu page  */
 #carte-section {
     background-image: url("../images/coffee-bean.jpg");
     background-repeat: no-repeat;
@@ -276,6 +276,90 @@ footer {
     flex: 0 100%;
     text-align: center;
 }
+
+
+
+
+/* Style for the contact form */
+#contact-section {
+    background-image: url("../images/coffee-bean.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    min-height: 56.25rem;
+}
+
+#contact-panel-container {
+    width: auto;
+    margin: 5rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.contact-panel {
+    background-color: beige;
+    border-radius: 10px;
+    padding: 1rem;
+    height: 30rem;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.06875rem;
+    font-size: 110%;
+    width: 37.5%;
+    float: none;
+    margin: auto;
+}
+
+.contact-panel h2 {
+    text-transform: uppercase;
+    font-size: 180%;
+    padding-bottom: 1.5rem;
+}
+
+
+.text-input {
+    background: rgba(255,255,255,0.5);
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+    font-weight: 600;
+    width: 100%;
+    margin: 0.3125rem 0 1.25rem 0;
+    border: 0.0625rem solid saddlebrown;
+    border-radius: 2px;
+    padding: 0.3125rem;
+    letter-spacing: 0.06875rem;
+}
+
+.submit-button {
+    background-color: black;
+    color: beige;
+    padding: 1%;
+    text-align: center;
+    font-size: 1.25rem;
+    border-radius: 15px;
+}
+
+.text-input-line {
+    height: 1.60rem;
+}
+
+.text-input-box {
+    height: 10rem;
+    resize: none;
+}
+
+
+
+
+
+
+
+
 
 
 
