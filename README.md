@@ -11,6 +11,8 @@ It can be consumme inside or in take away.
 
 - The webstie has 3 pages with a full responsive navigation bar. There is 3 links who allow you to navigate to the Home page, Menu page or Contact page.
 
+![Navbar](Documentation/nav-bar.png)
+
 #### Landing page 
 
 - Give you information about the business.
@@ -23,11 +25,15 @@ It can be consumme inside or in take away.
 
 - Allow customer to provide us with a feed back with a form who request name, email and coment. 
 
+![Contact Form](Documentation/contact-form.png)
+
 #### The Footer 
 
 - Provide information about openning hours.
 - Address
 - Social media link
+
+![Footer](Documentation/footer.png)
 
 ## Testing 
 
